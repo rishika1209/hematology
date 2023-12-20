@@ -1,0 +1,151 @@
+/* All.css */
+
+.centered-container {
+    text-align: center;
+    margin-bottom: 20px; /* Maintain existing margin for bottom */
+    margin-top: 20px; /* Add top margin to separate from content above */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+  }
+  
+  .styled-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px; /* Add margin to push the table down */
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .responses-container {
+    text-align: center;
+    margin-top: 20px; /* Add some top margin for separation */
+  }
+  
+  /* Additional styles to center models and submit button */
+  select, button {
+    margin-right: 10px;
+    border: 2px solid #333; /* Dark border color */
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .purple-button {
+    background-color: #d8b5ff;
+    color: #fff;
+    border: none;
+    font-size: 14px; /* Adjusted font size for the button */
+    align-self: center; /* Center the button horizontally */
+  }
+  
+  /* Additional styles for header */
+  h2 {
+    font-size: 24px; /* Adjusted font size for the header */
+  }
+  /* All.css */
+  
+  .styled-table th {
+    background-color: rgba(235, 22, 65, 0.82); /* Light transparent crimson red color */
+    color: white;
+  }
+  /* All.css */
+  
+  /* Additional styles to center models and submit button */
+  select {
+    margin-right: 10px;
+    background-color: #d8b5ff; /* Light purple background color */
+    color: #fff; /* White text color */
+    padding: 8px; /* Adjusted padding for better appearance */
+    border: 2px solid #333; /* Dark border color */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* All.css */
+  
+  .styled-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px; /* Add margin to push the table down */
+    border: 2px solid #333; /* Dark border color */
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .styled-table tr {
+    border-bottom: 2px solid #333; /* Dark border between rows */
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border-right: 2px solid #333; /* Dark border between columns */
+  }
+  /* All.css */
+  
+  .centered-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    padding: 8px;
+    color: #131213;
+    margin: 4px;
+    width: 200px;
+  }
+  
+  .purple-button {
+    background-color: lightcoral;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .responses-container {
+    margin-top: 20px;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  /* All.css */
+  
+  /* All.css */
+  
+  .input-wrapper {
+    border: 1px solid darkred; /* Border color for the box */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 8px;
+    color: darkred; /* You can adjust the color as needed */
+    font-weight: bold;
+  }
+  

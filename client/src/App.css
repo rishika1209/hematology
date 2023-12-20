@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #3e394e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.formContainer {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.submitButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.resultContainer {
+  margin-top: 20px;
+  padding: 20px;
+  background: #efefef;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.resultHeading {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.textInput {
+  font-weight: bold;
+  color: #333;
+}
+
+.textLabel {
+  font-family: serif;
+  color: #333;
+}
+
+.hemoglobinLabel {
+  color: #333;
+  /* Custom color for Hemoglobin label */
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+}
+
+.mcvLabel {
+  text-transform: uppercase;
+  color: #333;
+  /* Custom color for MCV label */
+}

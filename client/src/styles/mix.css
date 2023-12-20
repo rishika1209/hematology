@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    width: 100%;
+    padding: 10px;
+    min-height:calc(100vh - 80px);
+}
+
+section .form_data{
+    max-width: 550px;
+    margin: 25px auto;
+    padding: 35px 10px;
+    box-shadow: 0 0 15px -10px #2d3748;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_data h1{
+    font-size: 34px;
+    color: #2a4365;
+}
+
+.form_data p{
+    color: #718096;
+    font-size: 15px;
+    margin-top:9px;
+}
+
+.form_data form{
+    margin-top: 45px;
+    width: 100%;
+    padding: 50px 50px;
+}
+
+.form_data form .form_input input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #702424;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    font-size: 14px;
+    
+}
+
+.form_data form .form_input label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form_input .two{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form_data form .form_input input:focus{
+    border:2px solid rgba(81, 156, 55, 0.6);
+}
+
+
+.form_data form .form_input input::placeholder{
+    color: #8694a8;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+.form_input .showpass{
+    position: absolute;
+    right: 0;
+    top:1px;
+    padding: 7px 10px;
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2a4365;
+    background-color: #6d7781;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:rgb(23, 3, 30);
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+form .btn:hover{
+    background-color: #97a1b1;
+}
+form .btnload{
+    background-color: #97a1b1;
+}
+
+.form_data form p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_data form a{
+    text-decoration: none;
+    color:#967193 ;
+    border-bottom: 2px solid #8694a8;
+}
+.container {
+    text-align: center;
+    margin: 20px;
+}
+  
+  .heading {
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+  .formContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .resultContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background: #efefef;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .resultHeading {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .textInput {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .textLabel {
+    font-family: serif;
+    color: #333;
+  }
+  
+  .hemoglobinLabel {
+    color: #333;
+    /* Custom color for Hemoglobin label */
+    text-transform: uppercase;
+    font-family: "Helvetica Neue";
+  }
+  
+  .mcvLabel {
+    text-transform: uppercase;
+    color: #333;
+    /* Custom color for MCV label */
+  }
